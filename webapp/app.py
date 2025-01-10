@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Define a route for the home page
 @app.route('/')
 def home():
-    return "Welcome to the Flask App!"
+    return "Welcome to the Flask App!JAN 2025"
 
 # Define a route for a sample API endpoint
 @app.route('/api/greet', methods=['GET'])
